@@ -13,7 +13,6 @@ When we launch our app with `flask run`, we're implicitly using the python versi
 
 __How?__
 
-The `flask` app just displays the python version used to invoke it on the homepage. To launch the app you can use:
+The `flask` app just displays the python version used to invoke it on the homepage. To launch both "versions" of the app in two separate containers, you can use:
 
-* `docker-compose up web36`
-* `docker-compose up web37`
+* `docker-compose up`
